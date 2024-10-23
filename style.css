@@ -21,17 +21,18 @@ header{
 header nav ul{
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 20px;
 }
 
 header nav a{
     color: white;
-    padding: 8px;
+    padding: 16px;
+    
     transition: background-color 1s; /*transicao da cor*/ /*background só para ser no background ou se nao tira*/
 }
 
 header nav a:hover{
-    background-color: aqua; /* para ficar contornado. Para ficar sem contorno [e só deixar a cor*/
+    background-color: rgb(229, 180, 248); /* para ficar contornado. Para ficar sem contorno [e só deixar a cor*/
     color: black;
   /*se nao quiser que mude a cor, mas sublinhe é so usar bottom-border 4px tomato*/
 }
@@ -40,18 +41,68 @@ header nav a:hover{
     height: 100vh;
 }
 
-#vermelho{
-    background-color: #ff6b6b;
+#animadinha{
+    background-color: #EC66C5;
 }
-#verde{
-    background-color: #1dd1a1;
+#animadinha img{
+    width: 60vh;
+    height: 60vh;
+    background-repeat: no-repeat;   
+    align-items:  center; 
+    display:flex;
+    position: relative;
+    right: -66vh;
+    top: 25vh;
 }
-#azul{
-    background-color: #54a0ff;
+#carinhosa{
+    background-color: #B963BC;
 }
-#amarelo{
-    background-color: #feca57;
+#carinhosa img{
+    width: 55vh;
+    height: 60vh;
+    background-repeat: no-repeat;   
+    align-items:  center; 
+    display:flex;
+    position: relative;
+    right: -70vh;
+    top: 25vh
 }
-#roxo{
-    background-color: purple;
+#zangadinho{
+    background-color: #629dcc;
+}
+#zangadinho img{
+    width: 55vh;
+    height: 90vh;
+    background-repeat: no-repeat;   
+    align-items:  center; 
+    display:flex;
+    position: relative;
+    right: -70vh;
+    top: 15vh
+}
+#solzinho{
+    background-color: #fff877;
+}
+#solzinho img{
+    width: 50vh;
+    height: 50vh;
+    background-repeat: no-repeat;   
+    align-items:  center; 
+    display:flex;
+    position: relative;
+    right: -75vh;
+    top: 39vh
+}
+#boasorte{
+    background-color: #aaea83;
+}
+#boasorte img{
+    width: 50vh;
+    height: 60vh;
+    background-repeat: no-repeat;   
+    align-items:  center; 
+    display:flex;
+    position: relative;
+    right: -70vh;
+    top: 35vh
 }
