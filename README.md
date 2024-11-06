@@ -1,6 +1,6 @@
 # site-vertical
 
-# Site de rolagewm colorido
+# Site de rolagem colorido
 ---
 # Ursinhos Carinhosos
 ![](./screenshot/tela.png)
